@@ -1,0 +1,113 @@
+body  {
+    background-image: url(1306038.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 40%;
+    left: 45%;
+    z-index: 1000;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+.card-text {
+    padding: 30px !important;
+}
+
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem; 
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+  
+.content-wrap {
+    padding-bottom: 2.5rem;    
+}
+
+.modalText {
+    padding: 25px;
+}
+.brbtm{
+    border-bottom: 2px solid rgba(0, 89, 255, 0.938);
+    background-color: whitesmoke
+}
+.foot {
+    color: white;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-left: 20px !important;
+
+}
+
+.recipeCard {
+    border-bottom-left-radius: 25px !important;
+    border-bottom-right-radius: 25px !important
+}
+
+.recipeCard:hover{
+ background-color:cornflowerblue;
+}
+
+.recipeItem:hover {
+    background-color: cornflowerblue;
+}
+
+.ht {
+    min-height: 70px;
+    max-height: 70px;
+}
+
+.select {
+   background-color: cornflowerblue !important;
+}
+
+
+.list-group-flush {
+    border-bottom-left-radius: 25px !important;
+    border-bottom-right-radius: 25px !important
+}
+
+.detailCard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.detail {
+    min-height: 150px;
+    max-height: 300px;
+}
+
+.tableImage {
+    min-height: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    align-self: center;
+}
+
+.btn {
+    width: 100%;
+    min-width: 50px; 
+    max-width: 180px; 
+     box-shadow: 0 4px 8px 0 rgba(3, 3, 3, 0.712), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+
